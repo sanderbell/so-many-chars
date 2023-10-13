@@ -41,7 +41,7 @@ html {
 body {
     align-items: center;
     background-color: rgb(234, 249, 226);
-    color: #757575;
+    color: #797979;
     display: flex;
     height: 100%;
     justify-content: center;
@@ -75,7 +75,7 @@ body {
 }
 
 .digit {
-    background-color: #a7b696df;
+    background-color: #839075ec;
     border-radius: 0.7em;
     color: #fff;
     padding: 0.15em 0.45em;
@@ -93,7 +93,6 @@ body {
     /* box-shadow: 0px 0px 3em #c4c4c476; */
     color: #797979;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.1rem;
     height: 85%;
     line-height: 1.35em;
     outline: none;
