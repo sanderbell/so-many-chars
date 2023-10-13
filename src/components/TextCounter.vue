@@ -5,7 +5,7 @@
         }} &nbsp;
         <span class="digit">{{ text.replace(/[\s\n]/g, '').length }}</span>
         {{ text.replace(/[\s\n]/g, '').length === 1 ? 'character' : 'characters'
-        }} excl. spaces &nbsp;
+        }} excluding spaces &nbsp;
         <span class="digit">{{ text.split(/[\p{L}0-9_-]+/u).length - 1 }}</span>
         {{ (text.split(/[\p{L}0-9_-]+/u).length - 1 === 1) ? 'word' : 'words' }}
     </p>
@@ -40,7 +40,7 @@ html {
 
 body {
     align-items: center;
-    background-color: #def4d2;
+    background-color: #def4d2c5;
     color: #797979;
     display: flex;
     height: 100%;
@@ -69,16 +69,16 @@ body {
 }
 
 #count {
-    font-size: 1.6em;
-    padding-bottom: 3.4em;
+    font-size: 1.7em;
+    padding-bottom: 3.3em;
 }
 
 .digit {
-    background-color: #839075ec;
-    border-radius: 0.7em;
+    background-color: #839075b6;
+    border-radius: 0.5em;
     color: #fff;
     padding: 0.15em 0.45em;
-
+    font-weight: bold;
 }
 
 #text-container {
@@ -89,7 +89,6 @@ body {
 #text {
     border: none;
     border-radius: 1em;
-    /* box-shadow: 0px 0px 3em #c4c4c476; */
     color: #797979;
     font-family: 'Nunito', sans-serif;
     height: 85%;
@@ -99,7 +98,9 @@ body {
     resize: none;
     transition: box-shadow 1.3s;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 1.5em #cfd8c693;
+
 }
 
 #text:focus,
