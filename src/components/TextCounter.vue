@@ -40,7 +40,7 @@ html {
 
 body {
     align-items: center;
-    background-color: #eaf9e2;
+    background-color: #def4d2;
     color: #797979;
     display: flex;
     height: 100%;
