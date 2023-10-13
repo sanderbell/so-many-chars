@@ -26,6 +26,8 @@ export default {
 <style >
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:wght@300;500&display=swap');
 
+
+
 html {
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
@@ -64,6 +66,7 @@ body {
     height: 80%;
     justify-content: center;
     width: 90%;
+    user-select: none;
 }
 
 #count {
@@ -108,5 +111,21 @@ body {
 
 #text::placeholder {
     opacity: 0.3;
+}
+
+#mobile-warning {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    #mobile-warning {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    #count,
+    #text-container {
+        display: none;
+    }
 }
 </style>
