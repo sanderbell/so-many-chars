@@ -40,7 +40,7 @@ html {
 
 body {
     align-items: center;
-    background-color: rgb(234, 249, 226);
+    background-color: #eaf9e2;
     color: #797979;
     display: flex;
     height: 100%;
@@ -52,7 +52,6 @@ body {
 *,
 *::before,
 *::after {
-    /* border: 1px solid #b46565; */
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -100,12 +99,12 @@ body {
     resize: none;
     transition: box-shadow 1.3s;
     width: 100%;
-    /* border: 1px dotted #cbcbcb; */
+    font-size: 1rem;
 }
 
 #text:focus,
 #text:focus-visible {
-    box-shadow: 0px 0px 4em #a7b69693;
+    box-shadow: 0px 0px 4.5em #a7b69693;
 }
 
 #text::placeholder {
