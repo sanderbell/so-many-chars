@@ -1,6 +1,6 @@
-# Character and Word Counter
+# So Many Characters!
 
-![User flow example](./demo.gif "User flow example")
+![User flow example](public/demo.gif "User flow example")
 
 ## Overview
 
