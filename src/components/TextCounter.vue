@@ -112,6 +112,10 @@ body {
     opacity: 0.3;
 }
 
+#text::selection {
+    background: #def4d2c5;
+}
+
 #mobile-warning {
     display: none;
 }
