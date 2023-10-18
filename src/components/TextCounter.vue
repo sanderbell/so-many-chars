@@ -10,7 +10,7 @@
         {{ (text.split(/[\p{L}0-9_-]+/u).length - 1 === 1) ? 'word' : 'words' }}
     </p>
     <div id="text-container">
-        <textarea id="text" v-model="text" placeholder="Paste your text here..."></textarea>
+        <textarea autofocus id="text" v-model="text" placeholder="Paste your text here..."></textarea>
     </div>
 </template>
   
