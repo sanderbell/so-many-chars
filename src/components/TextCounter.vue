@@ -12,6 +12,11 @@
     <div id="text-container">
         <textarea autofocus id="text" v-model="text" placeholder="Paste your text here..."></textarea>
     </div>
+    <footer>
+        © 2023
+        <a target="_blank" href="https://sanderbell.dev">Sander Bell</a>
+
+    </footer>
 </template>
   
 <script>
@@ -118,6 +123,28 @@ body {
 
 #mobile-warning {
     display: none;
+}
+
+
+a {
+    border-bottom: 0.1em dotted #839075b6;
+    color: #839075b6;
+    text-decoration: none;
+}
+
+
+
+footer {
+    border-radius: 0.3em;
+    font-size: 0.9rem;
+    bottom: 2rem;
+    color: #839075b6;
+    font-weight: 300;
+    left: 50%;
+    padding: 0.35em 0.65em;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
 }
 
 @media (max-width: 800px) {
