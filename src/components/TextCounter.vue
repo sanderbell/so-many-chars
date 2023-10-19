@@ -127,7 +127,7 @@ body {
 
 
 a {
-    border-bottom: 0.1em dotted #839075b6;
+    border-bottom: 0.1em solid #839075b6;
     color: #839075b6;
     text-decoration: none;
 }
@@ -135,13 +135,10 @@ a {
 
 
 footer {
-    border-radius: 0.3em;
     font-size: 0.9rem;
     bottom: 2rem;
     color: #839075b6;
-    font-weight: 300;
     left: 50%;
-    padding: 0.35em 0.65em;
     position: absolute;
     text-align: center;
     transform: translateX(-50%);
